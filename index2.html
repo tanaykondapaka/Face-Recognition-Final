@@ -1,0 +1,49 @@
+<html>
+    <head>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Comfortaa:wght@300;700&family=Dangrek&family=Freckle+Face&family=Fredoka:wght@400;600&family=Lobster+Two&family=M+PLUS+1+Code:wght@500&family=Montserrat+Alternates:wght@300;600&family=MuseoModerno:wght@100&family=Niconne&family=Nova+Square&family=Poiret+One&family=Poppins&family=Rozha+One&family=Share+Tech+Mono&family=UnifrakturMaguntia&family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style2.css">
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Nova+Mono&display=swap" rel="stylesheet">
+  <title>Recognize</title>
+  <link rel="icon" href="Icon1.png">   
+        </head>
+        <body>
+            <div id="title">
+            <h2 id="recog"> <a style="color: rgb(205, 247, 255);" href="index.html" >Recognize</a></h2><h1 id="title_text"><a id="title_link" href="https://www.google.com/">Your Project</a><b id="version">ML5 Version - </b></h1>
+            </div>
+            <div id="content">
+                <center>
+                    
+                    <br><br>
+
+                    <div id="buttons">
+                <button id="camera" onclick="cam_on()">Cam On<i></i></button>
+                <button id="selfie" onclick="take_pic()">Take Pic<i></i></button> </div>
+                <br>
+                <center><img id="select" onclick="send()" src="tick.png" style=" background:linear-gradient(to right,rgb(94, 209, 101),rgb(58, 238, 151));height: 70px;width: 70px;border-radius: 1000px;transition:box-shadow 500ms ease"></button></center>
+                <div id="cam_div"></div>
+                <div id="pic_div"></div>
+                <br><br><br>
+                               
+                                </center>
+                                <div id="classes">
+<h1 id="tc">Classes</h1>
+<hr>
+<center id="classess" ></center>
+
+
+                                </div>
+            </div>
+            
+            <script src="main2.js"></script>
+        </body>
+</html>
